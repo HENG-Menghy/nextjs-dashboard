@@ -20,7 +20,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/": ["./public/*"],
+      "@app/*": ["./app/*"],
+      "@ui/*": ["./app/ui/*"],
+      "@lib/*": ["./app/lib/*"],
+      "@query/*": ["./app/query/*"],
+      "@seed/*": ["./app/seed/*"],
     }
   },
   "include": [
