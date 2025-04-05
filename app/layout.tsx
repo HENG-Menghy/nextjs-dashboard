@@ -2,7 +2,7 @@ import "@ui/global.css";
 import { Metadata } from "next";
 import { inter } from "@ui/fonts";
 
-export const metadeta: Metadata = {
+export const metadata: Metadata = {
   title: "Next.js dashboard Full-Stack App",
   description: "Build dynamic, and modern dashboard app using Next.js with PostgreSQL"
 }
