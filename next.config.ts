@@ -1,7 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Enable PPR (Partial Prerendering) by adding the 'ppr' option 
+  experimental: {
+    ppr: 'incremental'
+  }
+
 };
 
 export default nextConfig;
